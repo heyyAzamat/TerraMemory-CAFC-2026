@@ -1,37 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏺 Archaeology Mapping Platform
 
-## Getting Started
+A web-based platform for crowdsourced reporting and preliminary analysis of potential archaeological findings.
 
-First, run the development server:
+## 📌 About the Project
+Many archaeological objects are lost due to the lack of a simple and accessible way to report discoveries. People may encounter fragments of pottery, metal objects, or other artifacts but often do not know how or where to report them.  
+This project addresses that gap by providing a **digital platform** where citizens can mark potential findings on an interactive map, while archaeologists and researchers can review, verify, and systematize the collected data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Goal
+To create a centralized system that:
+- preserves cultural and historical heritage  
+- engages the public in archaeological research  
+- improves communication between citizens and professionals  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Core Features
+- 🗺️ Interactive map for adding and viewing findings  
+- 📍 Automatic geolocation detection  
+- 📸 Photo upload and detailed descriptions  
+- 👤 User dashboard with submission history  
+- 🧑‍🔬 Expert panel for review and moderation  
+- 📊 Submission status tracking (under review / rejected / promising)  
+- 🛡️ Protection against fake or duplicate reports  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Technical Concept
+The platform serves as a **tool for initial documentation and analysis** of potential archaeological sites.  
+Optional hardware modules (e.g., Arduino-based controllers connected to sensors) may assist in detecting **soil or magnetic anomalies**, but they do not replace professional archaeological methods or expertise.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+- **Frontend:** React / Next.js  
+- **Backend:** Node.js (NestJS) or Django  
+- **Database:** PostgreSQL + PostGIS  
+- **Maps:** Mapbox / OpenStreetMap  
+- **Authentication:** JWT / OAuth  
 
-## Learn More
+## 🚀 Future Development
+- AI-based image analysis of reported findings  
+- Risk mapping of illegal excavations  
+- Integration with museums and universities  
+- Mobile application  
+- Advanced regional analytics  
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# TerraMemory
+## 🤝 Contributing
+Contributions are welcome. Feel free to open issues, submit pull requests, or suggest improvements.  
+The project is open to collaboration with developers, researchers, and educational institutions.
