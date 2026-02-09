@@ -154,10 +154,10 @@ export default function NewFindingPage() {
   return (
     <div className="mx-auto flex max-w-4xl flex-col gap-6 px-4 py-6 md:px-6 md:py-8">
       <header className="space-y-1">
-        <h1 className="text-xl font-semibold tracking-tight text-stone-900 md:text-2xl">
+        <h1 className="text-xl font-semibold tracking-tight text-stone-100 md:text-2xl">
           Сообщить о находке
         </h1>
-        <p className="text-sm text-stone-600">
+        <p className="text-sm text-stone-300">
           Заполните форму в несколько шагов. В этой версии данные остаются
           только в браузере — это демонстрационный прототип пользовательского
           интерфейса.
