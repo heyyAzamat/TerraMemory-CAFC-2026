@@ -3,10 +3,10 @@ export default function MapPage() {
     <div className="mx-auto flex max-w-6xl flex-1 flex-col gap-4 px-4 py-6 md:px-6 md:py-8">
       <header className="flex flex-col justify-between gap-3 md:flex-row md:items-center">
         <div>
-          <h1 className="text-xl font-semibold tracking-tight text-stone-900 md:text-2xl">
+          <h1 className="text-xl font-semibold tracking-tight text-stone-100 md:text-2xl">
             Карта находок
           </h1>
-          <p className="mt-1 text-sm text-stone-600">
+          <p className="mt-1 text-sm text-stone-300">
             Интерактивная карта для изучения сообщений о возможных археологических находках.
             В этой версии отображается прототип интерфейса без реальных данных.
           </p>
