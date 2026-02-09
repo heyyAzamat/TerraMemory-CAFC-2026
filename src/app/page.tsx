@@ -6,14 +6,14 @@ export default function Home() {
           <p className="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium uppercase tracking-[0.16em] text-emerald-800">
             Гражданская археология · сохранение памяти
           </p>
-          <h1 className="text-balance text-3xl font-semibold tracking-tight text-stone-900 sm:text-4xl lg:text-5xl">
+          <h1 className="text-balance text-3xl font-semibold tracking-tight text-stone-100 sm:text-4xl lg:text-5xl">
             Отметьте найденный фрагмент истории&nbsp;—{" "}
             <span className="bg-gradient-to-r from-amber-700 via-amber-500 to-emerald-600 bg-clip-text text-transparent">
               эксперты проверят и сохранят данные
             </span>
             .
           </h1>
-          <p className="max-w-xl text-sm leading-relaxed text-stone-600 sm:text-base">
+          <p className="max-w-xl text-sm leading-relaxed text-stone-300 sm:text-base">
             Платформа, где жители могут сообщать о возможных археологических находках,
             а профессиональные археологи — анализировать, проверять и систематизировать
             эти сообщения, не раскрывая чувствительных данных о локациях.
@@ -32,17 +32,17 @@ export default function Home() {
               Присоединиться как эксперт
             </a>
           </div>
-          <dl className="mt-4 grid gap-4 text-xs text-stone-600 sm:grid-cols-3 sm:text-sm">
+          <dl className="mt-4 grid gap-4 text-xs text-stone-400 sm:grid-cols-3 sm:text-sm">
             <div>
-              <dt className="font-medium text-stone-800">Ответственный вклад</dt>
+              <dt className="font-medium text-stone-100">Ответственный вклад</dt>
               <dd>Простая форма, подсказки по корректному описанию находки.</dd>
             </div>
             <div>
-              <dt className="font-medium text-stone-800">Научная экспертиза</dt>
+              <dt className="font-medium text-stone-100">Научная экспертиза</dt>
               <dd>Панель археолога с картой, статусами и комментариями.</dd>
             </div>
             <div>
-              <dt className="font-medium text-stone-800">Безопасность данных</dt>
+              <dt className="font-medium text-stone-100">Безопасность данных</dt>
               <dd>Обезличенные публичные карты и система модерации.</dd>
             </div>
           </dl>
