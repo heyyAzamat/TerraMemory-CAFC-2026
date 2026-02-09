@@ -22,10 +22,10 @@ export default function LoginPage() {
   return (
     <div className="mx-auto flex max-w-md flex-col gap-6 px-4 py-10 md:px-0">
       <header className="space-y-1 text-center">
-        <h1 className="text-xl font-semibold tracking-tight text-stone-900 md:text-2xl">
+        <h1 className="text-xl font-semibold tracking-tight text-stone-100 md:text-2xl">
           Вход в аккаунт
         </h1>
-        <p className="text-sm text-stone-600">
+        <p className="text-sm text-stone-300">
           В демо-версии достаточно указать email, чтобы войти и увидеть личный
           кабинет.
         </p>
